@@ -1,0 +1,18 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+
+    <fragment
+        android:id="@+id/fragment_map_LAY_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
